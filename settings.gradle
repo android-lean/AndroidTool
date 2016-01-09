@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':androidread', ':oschina'
