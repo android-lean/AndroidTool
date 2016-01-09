@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.guigu.edwin.androidtool.MainActivity">
+
+    <com.guigu.edwin.androidtool.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        custom:leftBackground="#4384c6"
+        custom:leftText="Back"
+        custom:leftTextColor="#FFFFFF"
+
+        custom:rightBackground="#4384c6"
+        custom:rightText="More"
+        custom:rightTextColor="#FFFFFF"
+
+        custom:titles="列表页面"
+        custom:titleTextColors="#123412"
+        custom:titleTextSize="10sp"
+
+        >
+    </com.guigu.edwin.androidtool.Topbar>
+
+</RelativeLayout>
